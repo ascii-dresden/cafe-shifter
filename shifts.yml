@@ -1,0 +1,34 @@
+shifts:
+  shift: &early
+     start: '09:00'
+     end:   '13:00'
+  shift: &late
+     start: '13:00'
+     end:   '17:30'
+  shift: &late2
+     start: '13:00'
+     end:   '15:30'
+
+start: 01.08.2014
+end:   01.02.2015
+
+week:
+  monday:
+    Gilbert: *early
+    Simon:   *late 
+
+  tuesday:
+    Hendrik: *early
+    Nadja:   *late 
+
+  wednesday:
+    Kilian:  *early
+    Susi:    *late 
+
+  thursday:
+    Steiger: *early
+    Andi:    *late 
+
+  friday:
+    Vincent: *early
+    Kriss:   *late2
